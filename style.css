@@ -256,5 +256,16 @@ select {
   background-color: #fff;
   box-sizing: border-box;
   line-height: 1.4;
-
+}
+/* Declaration section text */
+.section.declaration p {
+  text-indent: 40px;   /* space from start like a tab */
+  line-height: 1.6;    /* optional: improve readability */
+  margin-top: 10px;
+}
+/* Career Objective section text */
+.section.objective p {
+  text-indent: 40px;   /* tab/space from start */
+  line-height: 1.6;    /* readability */
+  margin-top: 5px;
 }
